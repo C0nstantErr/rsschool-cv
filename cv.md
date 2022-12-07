@@ -13,16 +13,19 @@ I’ve always been interested in learning smth new. As for me, Frontend-developm
 - Java Script (basics)
 - GIT (basics) 
 ## Code example 
-    function NumberSearch(arr, num) {
-      for(let i=0; i<arr.length; i++){
-        if(arr[i]==num) return i;
-      }
-      return -1; 
-    }
+```
+function NumberSearch(arr, num) {
+  for(let i=0; i<arr.length; i++){
+    if(arr[i]==num) return i;
+  }
+  return -1; 
+}
+```
 ## Work experience
 **LLC "ZMF"** - engineer at Energy department (since 2018)
 ## Education
 *Zaporizhya National University:*
+
 1. International economics, Bachelor Degree
 2. Enviroment economics and Natural resources, Master Degree
 
