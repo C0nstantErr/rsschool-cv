@@ -155,28 +155,28 @@ aside section {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url('./img/icons/email.png');
+  content:url('./img/icons/contact/email.png');
 }
 
 .contact__item:nth-child(2)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url('./img/icons/phone.png');
+  content:url('./img/icons/contact/phone.png');
 }
 
 .contact__item:nth-child(3)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url('./img/icons/location.png');
+  content:url('./img/icons/contact/location.png');
 }
 
 .contact__item:nth-child(4)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url('./img/icons/github.png');
+  content:url('./img/icons/contact/github.png');
 }
 .contact__item a {
   color: #323131;
