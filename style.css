@@ -101,12 +101,13 @@ ul li {
 .content {
   flex: 1 1 auto;
 }
+
 section {
  color: #323131;
 }
+
 .title {
   position: relative;
-  /* margin-top: 50px; */
   font-size: 22px;
   line-height: 60px;
   font-weight: 700;
@@ -126,28 +127,60 @@ section {
   background-color: #8e4d57;
 }
 /* Aside part */
-aside{
+aside {
   flex: 0 1 424px;
 }
+
 aside section {
   padding: 0 64px; 
 }
+
 .contact__title{
   margin: 150px 0 0 0;
 }
+
 .contact__list {
   margin: 30px 0 0 0;
 }
+
 .contact__item {
-  padding: 0 0 0 30px;
-  /* margin: 0 0 10px 0; */
+  position: relative;
+  padding: 0 0 0 35px;
   line-height: 40px;
   color: #8e4d57;
+}
+
+.contact__item:first-child::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/email.png');
+}
+
+.contact__item:nth-child(2)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/phone.png');
+}
+
+.contact__item:nth-child(3)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/location.png');
+}
+
+.contact__item:nth-child(4)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/github.png');
 }
 .contact__item a {
   color: #323131;
 }
 /* Main part */
-main{
+main {
   flex: 0 1 600px;
 }
