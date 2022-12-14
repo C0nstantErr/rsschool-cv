@@ -39,3 +39,12 @@ ul li {
   list-style: none;
 }
 /* Обнуление стилей end*/
+.wrapper {
+  width: 1024px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: clip;
+  background-color: #fcfbfc;
+  box-shadow: 0 0 7px rgba(51, 51, 51, 0.7);
+  border-radius: 15px;
+}
