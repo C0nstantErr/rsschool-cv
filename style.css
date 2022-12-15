@@ -42,7 +42,6 @@ ul li {
 /* Structure style */
 .wrapper {
   width: 1024px;
-  min-height: 100vh;
   margin: 0 auto;
   overflow: clip;
   background-color: #fcfbfc;
@@ -267,4 +266,28 @@ main {
 
 .english-level__text {
   line-height: 1.8;
+  margin-bottom: 30px;
 }
+/* Footer */
+.footer{
+  width: 100%;
+  height: 80px;
+  padding: 10px 64px;
+  color: #fcfbfc;
+  background-color: #8e4d57;
+}
+
+.footer .flex-wrapper_row {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  color: #fcfbfc;
+}
+
+/* .footer__text {
+  line-height: 2;
+  letter-spacing: 0.5px;
+} */
