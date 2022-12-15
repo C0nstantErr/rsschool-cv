@@ -148,6 +148,7 @@ aside section {
   position: relative;
   padding: 0 0 0 35px;
   line-height: 40px;
+  letter-spacing: 0.5px;
 }
 
 .contact__item:nth-child(1)::before {
@@ -209,6 +210,23 @@ aside section {
   content:url('./img/icons/skills/merge.png');
 }
 
+.soft-skills__item::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #323131;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.soft-skills__item:hover::before {
+  background-color: #323131;
+
+}
 /* Main part */
 main {
   flex: 0 1 600px;
