@@ -127,7 +127,7 @@ section {
   border-radius: 8px;
   background-color: #8e4d57;
 }
-/* Aside part */
+/* Content block: aside part */
 aside {
   flex: 0 1 424px;
 }
@@ -212,12 +212,12 @@ aside section {
 
 .soft-skills__item::before {
   position: absolute;
-  top: 15px;
+  top: 15.5px;
   left: 0;
   content: "";
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border: 2px solid #323131;
   border-radius: 50%;
   transition: all 0.3s ease-in;
@@ -227,7 +227,18 @@ aside section {
   background-color: #323131;
 
 }
-/* Main part */
+/* Content block: main part */
 main {
   flex: 0 1 600px;
+}
+
+.about-me__title {
+  margin: 35px 0 0 0;
+}
+
+.about-me__text {
+  margin: 30px 0 0 0;
+  padding: 0 64px 0 0;
+  line-height: 1.8;
+  text-align: justify;
 }
