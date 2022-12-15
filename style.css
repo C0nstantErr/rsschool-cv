@@ -144,7 +144,6 @@ aside section {
   margin: 30px 0 0 0;
 }
 
-.contact__item,
 .list__item {
   position: relative;
   padding: 0 0 0 35px;
@@ -182,6 +181,33 @@ aside section {
   color: #323131;
 }
 
+.hard-skills__item:nth-child(1)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/skills/html.png');
+}
+
+.hard-skills__item:nth-child(2)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/skills/css.png');
+}
+
+.hard-skills__item:nth-child(3)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/skills/js.png');
+}
+
+.hard-skills__item:nth-child(4)::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content:url('./img/icons/skills/merge.png');
+}
 
 /* Main part */
 main {
