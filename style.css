@@ -152,35 +152,35 @@ aside section {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/contact/email.png");
+  content: url("./img/icons/contact/email.png");
 }
 
 .contact__item:nth-child(2)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/contact/phone.png");
+  content: url("./img/icons/contact/phone.png");
 }
 
 .contact__item:nth-child(3)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/contact/location.png");
+  content: url("./img/icons/contact/location.png");
 }
 
 .contact__item:nth-child(4)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/contact/github.png");
+  content: url("./img/icons/contact/github.png");
 }
 
 .contact__item:nth-child(5)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/contact/discord.png");
+  content: url("./img/icons/contact/discord.png");
 }
 
 .list__item a {
@@ -191,28 +191,28 @@ aside section {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/skills/html.png");
+  content: url("./img/icons/skills/html.png");
 }
 
 .hard-skills__item:nth-child(2)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/skills/css.png");
+  content: url("./img/icons/skills/css.png");
 }
 
 .hard-skills__item:nth-child(3)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/skills/js.png");
+  content: url("./img/icons/skills/js.png");
 }
 
 .hard-skills__item:nth-child(4)::before {
   position: absolute;
   top: 6px;
   left: 0;
-  content:url("./img/icons/skills/merge.png");
+  content: url("./img/icons/skills/merge.png");
 }
 
 .soft-skills__item::before,
